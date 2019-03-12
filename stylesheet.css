@@ -14,7 +14,7 @@ body{
       -ms-flex-pack: end;
           justify-content: flex-end;
   background-color: #4b53dc;
-  background-image: url(assets/construction.jpg);
+  background-image: url(construction.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
