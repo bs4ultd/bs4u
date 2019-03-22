@@ -8,215 +8,203 @@
     "duration": ["-"],
     "start": ["This course has rolling start dates. Please enquire for details"],
     "location": "Southgate Campus",
-    "description":
-      {
-          "whoisitfor": "This course is a great choice if you to become a fully qualified electrician and have some practical work experience. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
-          "quals": "All applicants must normally have a Level 3 Diploma in either City & Guilds 2365 or the previous 2330 qualification at Level 2 or 2360 part 1. You also need GCSEs in maths and English (at grade C or higher) and a Level 2 maths and English pass during the admission process.",
-          "content": "For this Level 3 NVQ you will study fundamental principles and environmental technologies, principles of electrical science, fault diagnosis and rectification, inspection, testing and commissioning, and electrical system design.",
-          "completion": "Successful completion of the course will lead to an award of Diploma Level 3 (City & Guilds 2365 Level 3). From here you can choose to proceed to full time employment or look for an Apprenticeship.",
-          "extra": "You must provide and wear approved safety footwear, course books and a scientific calculator. "
-      }
-  }
+    "description": {
+      "whoisitfor": "This course is a great choice if you to become a fully qualified electrician and have some practical work experience. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
+      "quals": "All applicants must normally have a Level 3 Diploma in either City & Guilds 2365 or the previous 2330 qualification at Level 2 or 2360 part 1. You also need GCSEs in maths and English (at grade C or higher) and a Level 2 maths and English pass during the admission process.",
+      "content": "For this Level 3 NVQ you will study fundamental principles and environmental technologies, principles of electrical science, fault diagnosis and rectification, inspection, testing and commissioning, and electrical system design.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 3 (City & Guilds 2365 Level 3). From here you can choose to proceed to full time employment or look for an Apprenticeship.",
+      "extra": "You must provide and wear approved safety footwear, course books and a scientific calculator. "
+    }
+  },
   {
     "name": "Diploma Level 3 in Electrical Installations",
     "trade": "Electrical",
     "price": "£3345",
-    "times": ["Evenings",  "Days"],
+    "times": ["Evenings", "Days"],
     "availability": ["Full Time", "Part Time"],
     "duration": ["36 weeks", "18 weeks"],
     "start": ["September", "January", "May"],
     "location": "Southgate Campus",
-    "description":
-      {
-          "whoisitfor": "This course is a great choice if you to become a fully qualified electrician and have some practical work experience. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
-          "quals": "All applicants must normally have a Level 3 Diploma in either City & Guilds 2365 or the previous 2330 qualification at Level 2 or 2360 part 1. You also need GCSEs in maths and English (at grade C or higher) and a Level 2 maths and English pass during the admission process.",
-          "content": "For this Level 3 NVQ you will study fundamental principles and environmental technologies, principles of electrical science, fault diagnosis and rectification, inspection, testing and commissioning, and electrical system design.",
-          "completion": "Successful completion of the course will lead to an award of Diploma Level 3 (City & Guilds 2365 Level 3). From here you can choose to proceed to full time employment or look for an Apprenticeship.",
-          "extra": "You must provide and wear approved safety footwear, course books and a scientific calculator. We have different sources of financial support to help those who meet the criteria. You will be able to apply to this fund once you have enrolled on your course."
-      }
-  }
+    "description": {
+      "whoisitfor": "This course is a great choice if you to become a fully qualified electrician and have some practical work experience. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
+      "quals": "All applicants must normally have a Level 3 Diploma in either City & Guilds 2365 or the previous 2330 qualification at Level 2 or 2360 part 1. You also need GCSEs in maths and English (at grade C or higher) and a Level 2 maths and English pass during the admission process.",
+      "content": "For this Level 3 NVQ you will study fundamental principles and environmental technologies, principles of electrical science, fault diagnosis and rectification, inspection, testing and commissioning, and electrical system design.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 3 (City & Guilds 2365 Level 3). From here you can choose to proceed to full time employment or look for an Apprenticeship.",
+      "extra": "You must provide and wear approved safety footwear, course books and a scientific calculator. We have different sources of financial support to help those who meet the criteria. You will be able to apply to this fund once you have enrolled on your course."
+    }
+  },
   {
     "name": "Diploma Level 2 in Electrical Installations",
     "trade": "Electrical",
     "price": "£1390",
-    "times": ["Evenings",  "Days"],
+    "times": ["Evenings", "Days"],
     "availability": ["Full Time", "Part Time"],
     "duration": ["36 weeks", "18 weeks"],
     "start": ["September", "January"],
     "location": "Southgate Campus",
-    "description":
-      {
-          "whoisitfor": "This course is a great choice if you are new to the electrical industry and want to become a qualified electrician. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
-          "quals": "All applicants must normally have at least 4 GCSEs grade A* to D (8/9 - 3) including maths and English, and a Level 1 maths and English pass during the admission process. Mature students are welcome provided they can prove their ability to study at Level 2 during the admission process.",
-          "content": "For this Level 2 Diploma you will learn about electrical principles including AC theory, single and triple phase power systems (in accordance with the 17th Edition Wiring Regulations 2008[2015]), Health and Safety in building services, electrical installation technology, installation of wiring systems and communication with other building services. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
-          "completion": "Successful completion of the course will lead to an award of Diploma Level 2 (City & Guilds 2365 Level 2). From here you can choose to proceed to the Diploma Level 3 or look for an Apprenticeship.",
-          "extra": "You must provide and wear approved safety footwear, and have a copy of the course book and a scientific calculator."
-      }
-}
-{
-  "name": "Diploma Level 1 in Electrical Installations",
-  "trade": "Electrical",
-  "price": "TBC",
-  "times": ["Day"],
-  "availability": ["Full Time"],
-  "duration": ["36 weeks"],
-  "start": ["September"],
-  "location": "Southgate Campus",
-  "description":
-    {
-        "whoisitfor": "If you are thinking about training as a plumber or electrician this course is a good start point. You will gain hands on skills throughout the course helping you gain a real insight into what being a plumber or an electrician involves. This diploma will help you learn, develop and practise the skills you need for employment or further career progression.",
-        "quals": "You do not need formal qualifications to start this course, but you should be able to demonstrate Level 1 numeracy and literacy capabilities through a short assessment during the admission process.",
-        "content": "For this Level 1 Diploma you will learn the foundations of plumbing or electrical installation and then be able to proceed to Level 2 full NVQ qualification. You will also learn about safe working practices when working in building construction. There will be an opportunity to widen your skills base and gain experience in elements of the trade that will improve employability. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
-        "completion": "Successful completion of the course will lead to an award of Diploma Level 1 (City & Guilds 7202 Level 1). From here you can choose to proceed to the Diploma Level 2 or look for an Apprenticeship.",
-        "extra": "You must provide and wear approved safety footwear. We have different sources of financial support to help those who meet the criteria. You will be able to apply to this fund once you have enrolled on your course."
+    "description": {
+      "whoisitfor": "This course is a great choice if you are new to the electrical industry and want to become a qualified electrician. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
+      "quals": "All applicants must normally have at least 4 GCSEs grade A* to D (8/9 - 3) including maths and English, and a Level 1 maths and English pass during the admission process. Mature students are welcome provided they can prove their ability to study at Level 2 during the admission process.",
+      "content": "For this Level 2 Diploma you will learn about electrical principles including AC theory, single and triple phase power systems (in accordance with the 17th Edition Wiring Regulations 2008[2015]), Health and Safety in building services, electrical installation technology, installation of wiring systems and communication with other building services. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 2 (City & Guilds 2365 Level 2). From here you can choose to proceed to the Diploma Level 3 or look for an Apprenticeship.",
+      "extra": "You must provide and wear approved safety footwear, and have a copy of the course book and a scientific calculator."
     }
-}
+  },
+  {
+    "name": "Diploma Level 1 in Electrical Installations",
+    "trade": "Electrical",
+    "price": "TBC",
+    "times": ["Day"],
+    "availability": ["Full Time"],
+    "duration": ["36 weeks"],
+    "start": ["September"],
+    "location": "Southgate Campus",
+    "description": {
+      "whoisitfor": "If you are thinking about training as a plumber or electrician this course is a good start point. You will gain hands on skills throughout the course helping you gain a real insight into what being a plumber or an electrician involves. This diploma will help you learn, develop and practise the skills you need for employment or further career progression.",
+      "quals": "You do not need formal qualifications to start this course, but you should be able to demonstrate Level 1 numeracy and literacy capabilities through a short assessment during the admission process.",
+      "content": "For this Level 1 Diploma you will learn the foundations of plumbing or electrical installation and then be able to proceed to Level 2 full NVQ qualification. You will also learn about safe working practices when working in building construction. There will be an opportunity to widen your skills base and gain experience in elements of the trade that will improve employability. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 1 (City & Guilds 7202 Level 1). From here you can choose to proceed to the Diploma Level 2 or look for an Apprenticeship.",
+      "extra": "You must provide and wear approved safety footwear. We have different sources of financial support to help those who meet the criteria. You will be able to apply to this fund once you have enrolled on your course."
+    }
+  },
 
-{
-  "name": "18th Edition Wiring Regulations",
-  "trade": "Electrical",
-  "price": "£399",
-  "times": ["Evening"],
-  "availability": ["Part Time"],
-  "duration": ["2"],
-  "start": ["Monthly"],
-  "location": "Southgate Campus",
-  "description":
-    {
-        "whoisitfor": "This qualification is primarily aimed at practising electricians with relevant experience and other allied professionals e.g. surveyors, consultants and other trades needing to update and enhance their understanding of IEE Wiring Regulations. It is also suitable for anyone wishing to demonstrate an understanding of the IEE 18th Edition Wiring Regulations (BS 7671).",
-        "quals": "There are no formal entry requirements for candidates undertaking this qualification but candidates need to have the potential and opportunity to successfully gain the qualification.",
-        "content": "Course elements will include: 1. Understanding the scope, object and fundamental principles of BS7671. 2. Understanding the fundamental principles and requirements of environmental technology systems. 3. Understanding the definitions used within BS7671. 4. Understanding how to assess the general characteristics of electrical installations. 5. Understanding requirements of Protection for safety for electrical installations. 6. Understanding the requirements for Selection and erection of equipment for electrical installations. 7. Understanding the requirements of Inspection and testing of electrical installations. 8. Understanding the requirements of special installations or locations as identified in BS 7671. 9. Understanding the information contained within the appendices of BS7671.",
-        "completion": "Level 3 Award in the Requirements for Electrical Installations BS 7671:2018 (2382- 18)",
-        "extra": "Students need to have the latest edition of the BS 7671 Wiring Regulations."
+  {
+    "name": "18th Edition Wiring Regulations",
+    "trade": "Electrical",
+    "price": "£399",
+    "times": ["Evening"],
+    "availability": ["Part Time"],
+    "duration": ["2"],
+    "start": ["Monthly"],
+    "location": "Southgate Campus",
+    "description": {
+      "whoisitfor": "This qualification is primarily aimed at practising electricians with relevant experience and other allied professionals e.g. surveyors, consultants and other trades needing to update and enhance their understanding of IEE Wiring Regulations. It is also suitable for anyone wishing to demonstrate an understanding of the IEE 18th Edition Wiring Regulations (BS 7671).",
+      "quals": "There are no formal entry requirements for candidates undertaking this qualification but candidates need to have the potential and opportunity to successfully gain the qualification.",
+      "content": "Course elements will include: 1. Understanding the scope, object and fundamental principles of BS7671. 2. Understanding the fundamental principles and requirements of environmental technology systems. 3. Understanding the definitions used within BS7671. 4. Understanding how to assess the general characteristics of electrical installations. 5. Understanding requirements of Protection for safety for electrical installations. 6. Understanding the requirements for Selection and erection of equipment for electrical installations. 7. Understanding the requirements of Inspection and testing of electrical installations. 8. Understanding the requirements of special installations or locations as identified in BS 7671. 9. Understanding the information contained within the appendices of BS7671.",
+      "completion": "Level 3 Award in the Requirements for Electrical Installations BS 7671:2018 (2382- 18)",
+      "extra": "Students need to have the latest edition of the BS 7671 Wiring Regulations."
     }
-}
+  },
 
-{
-  "name": "Inspection and Testing",
-  "trade": "Electrical",
-  "price": "£999",
-  "times": ["Day"],
-  "availability": ["Part Time"],
-  "duration": ["3 weeks"],
-  "start": ["September", "January", "March", "June"],
-  "location": "Southgate Campus",
-  "description":
-    {
-        "whoisitfor": "The course is suitable for Electricians, Engineers and Contractors already working and willing to progress on in their professional. It is also for Electricians working towards qualified Electrician status.",
-        "quals": "Electricians with basic knowledge in electrical installations and a minimum of three years' work experience. Engineers, Designers and Contractors in a relevant field and who have 17th Edition. Electricians with very little experience must have 2330, 2357 or 2365 Level 3 or equivalent qualification together with 17 Edition. Engineers Designers and Contractors who have not got the 17th Edition can have the option of doing 17th Edition in parallel with this course. All holders of 2394",
-        "content": "The principles, processes and practice of Inspection and Testing of new Installations together with the underpinning science/theory of Testing and Inspecting. Practical explanation of and skills in Inspection and Testing on different domestic, commercial and Industrial installations.",
-        "completion": "A level 3 Award in the Periodic Inspection, Testing and Certification of Electrical Installations (City & Guilds 2394-01)",
-        "extra": "All equipment will be provided for this course but you may bring your own test equipment and Textbooks"
+  {
+    "name": "Inspection and Testing",
+    "trade": "Electrical",
+    "price": "£999",
+    "times": ["Day"],
+    "availability": ["Part Time"],
+    "duration": ["3 weeks"],
+    "start": ["September", "January", "March", "June"],
+    "location": "Southgate Campus",
+    "description": {
+      "whoisitfor": "The course is suitable for Electricians, Engineers and Contractors already working and willing to progress on in their professional. It is also for Electricians working towards qualified Electrician status.",
+      "quals": "Electricians with basic knowledge in electrical installations and a minimum of three years' work experience. Engineers, Designers and Contractors in a relevant field and who have 17th Edition. Electricians with very little experience must have 2330, 2357 or 2365 Level 3 or equivalent qualification together with 17 Edition. Engineers Designers and Contractors who have not got the 17th Edition can have the option of doing 17th Edition in parallel with this course. All holders of 2394",
+      "content": "The principles, processes and practice of Inspection and Testing of new Installations together with the underpinning science/theory of Testing and Inspecting. Practical explanation of and skills in Inspection and Testing on different domestic, commercial and Industrial installations.",
+      "completion": "A level 3 Award in the Periodic Inspection, Testing and Certification of Electrical Installations (City & Guilds 2394-01)",
+      "extra": "All equipment will be provided for this course but you may bring your own test equipment and Textbooks"
     }
-}
+  },
 
-{
-  "name": "Electrotechnical Certification Scheme (ECS)",
-  "trade": "Electrical",
-  "price": "-",
-  "times": ["-"],
-  "availability": ["-"],
-  "duration": ["-"],
-  "start": ["-"],
-  "location": "Southgate Campus",
-  "description":
-    {
-        "whoisitfor": "-",
-        "quals": "-",
-        "content": "-",
-        "completion": "-",
-        "extra": "-"
+  {
+    "name": "Electrotechnical Certification Scheme (ECS)",
+    "trade": "Electrical",
+    "price": "-",
+    "times": ["-"],
+    "availability": ["-"],
+    "duration": ["-"],
+    "start": ["-"],
+    "location": "Southgate Campus",
+    "description": {
+      "whoisitfor": "-",
+      "quals": "-",
+      "content": "-",
+      "completion": "-",
+      "extra": "-"
     }
-}
+  },
 
-{
-  "name": "Diploma Level 1 in Plumbing",
-  "trade": "Plumbing",
-  "price": "TBC",
-  "times": ["Day"],
-  "availability": ["Full Time"],
-  "duration": ["36 Weeks"],
-  "start": ["September"],
-  "location": "Colindale Campus",
-  "description":
-    {
-        "whoisitfor": "If you are thinking about training as a plumber this course is a good start point. You will gain hands on skills throughout the course helping you gain a real insight into what being a plumber or an electrician involves. This diploma is the first step towards becoming a qualified plumber helping you learn, develop and practice the skills you need for employment or further career progression.",
-        "quals": "You do not need formal qualifications to start this course, but you should be able to demonstrate Level 1 numeracy and literacy capabilities through a short assessment during the admission process.",
-        "content": "For this Level 1 Diploma you will learn the foundations of plumbing and then be able to proceed to Level 2 full NVQ qualification. You will also learn about safe working practices when working in building construction. There will be an opportunity to widen your skills base and gain experience in elements of the trade that will improve employability. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
-        "completion": "Successful completion of the course will lead to an award of Diploma Level 1 (City & Guilds 7202 Level 1). From here you can choose to proceed to the Diploma Level 2 or look for an Apprenticeship.",
-        "extra": "You must provide and wear approved safety footwear."
+  {
+    "name": "Diploma Level 1 in Plumbing",
+    "trade": "Plumbing",
+    "price": "TBC",
+    "times": ["Day"],
+    "availability": ["Full Time"],
+    "duration": ["36 Weeks"],
+    "start": ["September"],
+    "location": "Colindale Campus",
+    "description": {
+      "whoisitfor": "If you are thinking about training as a plumber this course is a good start point. You will gain hands on skills throughout the course helping you gain a real insight into what being a plumber or an electrician involves. This diploma is the first step towards becoming a qualified plumber helping you learn, develop and practice the skills you need for employment or further career progression.",
+      "quals": "You do not need formal qualifications to start this course, but you should be able to demonstrate Level 1 numeracy and literacy capabilities through a short assessment during the admission process.",
+      "content": "For this Level 1 Diploma you will learn the foundations of plumbing and then be able to proceed to Level 2 full NVQ qualification. You will also learn about safe working practices when working in building construction. There will be an opportunity to widen your skills base and gain experience in elements of the trade that will improve employability. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 1 (City & Guilds 7202 Level 1). From here you can choose to proceed to the Diploma Level 2 or look for an Apprenticeship.",
+      "extra": "You must provide and wear approved safety footwear."
     }
-}
-{
-  "name": "Diploma Level 2 in Plumbing",
-  "trade": "Plumbing",
-  "price": "£1390",
-  "times": ["Day", "Evening"],
-  "availability": ["Full Time", "Part Time"],
-  "duration": ["36 Weeks", "18 Weeks"],
-  "start": ["September", "January"],
-  "location": "Colindale Campus",
-  "description":
-    {
-        "whoisitfor": "This course builds on the skills learned in the Level 1 Diploma and helps you develop skills for a career in plumbing. You will gain hands on skills throughout the course helping you get a real insight into what being a plumber involves. This diploma will help towards qualifying as a plumber helping you learn, develop and practice the skills you need for employment or further career progression.",
-        "quals": "All applicants must have successfully completed the Plumbing Diploma Level 1 and have at least 2 GCSEs at grades A* to D (8/9 - 3) including maths, or be able to show a Level 1 maths pass during the admission process.",
-        "content": "For this Level 2 Diploma you will learn about Health and Safety in construction, cold water system plumbing, domestic hot water systems, sanitation systems, central heating systems and drainage systems. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
-        "completion": "Successful completion of the course will lead to an award of Diploma Level 2 (City & Guilds 6035 Level 2). From here you can choose to proceed to the Diploma Level 3 or look for an Apprenticeship.",
-        "extra": "You must provide and wear approved safety footwear."
+  },
+  {
+    "name": "Diploma Level 2 in Plumbing",
+    "trade": "Plumbing",
+    "price": "£1390",
+    "times": ["Day", "Evening"],
+    "availability": ["Full Time", "Part Time"],
+    "duration": ["36 Weeks", "18 Weeks"],
+    "start": ["September", "January"],
+    "location": "Colindale Campus",
+    "description": {
+      "whoisitfor": "This course builds on the skills learned in the Level 1 Diploma and helps you develop skills for a career in plumbing. You will gain hands on skills throughout the course helping you get a real insight into what being a plumber involves. This diploma will help towards qualifying as a plumber helping you learn, develop and practice the skills you need for employment or further career progression.",
+      "quals": "All applicants must have successfully completed the Plumbing Diploma Level 1 and have at least 2 GCSEs at grades A* to D (8/9 - 3) including maths, or be able to show a Level 1 maths pass during the admission process.",
+      "content": "For this Level 2 Diploma you will learn about Health and Safety in construction, cold water system plumbing, domestic hot water systems, sanitation systems, central heating systems and drainage systems. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 2 (City & Guilds 6035 Level 2). From here you can choose to proceed to the Diploma Level 3 or look for an Apprenticeship.",
+      "extra": "You must provide and wear approved safety footwear."
     }
-}
-{
-  "name": "Diploma Level 3 in Plumbing",
-  "trade": "Plumbing",
-  "price": "£3345",
-  "times": ["Day", "Evening"],
-  "availability": ["Full Time", "Part Time"],
-  "duration": ["36 Weeks", "18 Weeks", "13 Weeks"],
-  "start": ["September", "January", "May"],
-  "location": "Colindale Campus",
-  "description":
-    {
-        "whoisitfor": "This course builds on the basic skills learned in the Plumbing & Electrical Installation Level 2 Diploma and helps you develop advanced skills for a career in plumbing. You may already be working as a plumber, but you will gain expert skills throughout the course helping you get a real insight into the full range of plumbing services. This diploma will help towards qualifying as a plumber helping you learn, develop and practice the skills you need for employment or further career progression.",
-        "quals": "All applicants must have successfully completed the Plumbing Studies Diploma Level 2 and have at least 2 GCSEs grade A* to D including maths or a Level 1 maths pass during the admission process.",
-        "content": "For this Level 3 Diploma you will learn about complex plumbing and heating systems including, domestic gas installations, health and safety in building services, complex cold and hot water systems and complex central heating systems.",
-        "completion": "Successful completion of the course will lead to an award of Diploma Level 3 (City & Guilds 6035 Level 3). From here you can choose to proceed to NVQ level 3 or seek an Apprenticeship.",
-        "extra": "You must provide and wear approved safety footwear."
+  },
+  {
+    "name": "Diploma Level 3 in Plumbing",
+    "trade": "Plumbing",
+    "price": "£3345",
+    "times": ["Day", "Evening"],
+    "availability": ["Full Time", "Part Time"],
+    "duration": ["36 Weeks", "18 Weeks", "13 Weeks"],
+    "start": ["September", "January", "May"],
+    "location": "Colindale Campus",
+    "description": {
+      "whoisitfor": "This course builds on the basic skills learned in the Plumbing & Electrical Installation Level 2 Diploma and helps you develop advanced skills for a career in plumbing. You may already be working as a plumber, but you will gain expert skills throughout the course helping you get a real insight into the full range of plumbing services. This diploma will help towards qualifying as a plumber helping you learn, develop and practice the skills you need for employment or further career progression.",
+      "quals": "All applicants must have successfully completed the Plumbing Studies Diploma Level 2 and have at least 2 GCSEs grade A* to D including maths or a Level 1 maths pass during the admission process.",
+      "content": "For this Level 3 Diploma you will learn about complex plumbing and heating systems including, domestic gas installations, health and safety in building services, complex cold and hot water systems and complex central heating systems.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 3 (City & Guilds 6035 Level 3). From here you can choose to proceed to NVQ level 3 or seek an Apprenticeship.",
+      "extra": "You must provide and wear approved safety footwear."
     }
-}
-{
-  "name": "Construction Skills Certification Scheme (CSCS)",
-  "trade": "Plumbing",
-  "price": "£139",
-  "times": ["Day"],
-  "availability": ["Part Time"],
-  "duration": ["1 Day"],
-  "start": ["Weekly"],
-  "location": "Colindale Campus",
-  "description":
-    {
-        "whoisitfor": "This course is for people wanting to work on a building site as a labourer or trainee. The CSCS card is required for you to work onsite and this course prepares you so that you can apply for a green or red card. The red card is valid for 3 years and is for trainees studying for a building industry related NVQ. The green card is for labourers working onsite and is valid for 5 years.",
-        "quals": "You do not need formal qualifications to start this course.",
-        "content": "During this course you will study the CITB Site Safety Plus Health & Safety Awareness course. By the end of the course you will understand the need to prevent accidents, have an understanding of health and safety law, identify how your role fits into the control and management of the building site, understand the need for risk assessments and method statements, accident prevention techniques. The course is delivered by the Construction Department, which is based at our brand new campus in Colindale.",
-        "completion": "Successful completion of the course earns you a CITB Site Safety Plus Health & Safety Awareness Certificate. Completion of the course and assessment enables you to apply for your CSCS red or green card.",
-        "extra": "All equipment will be provided."
+  },
+  {
+    "name": "Construction Skills Certification Scheme (CSCS)",
+    "trade": "Plumbing",
+    "price": "£139",
+    "times": ["Day"],
+    "availability": ["Part Time"],
+    "duration": ["1 Day"],
+    "start": ["Weekly"],
+    "location": "Colindale Campus",
+    "description": {
+      "whoisitfor": "This course is for people wanting to work on a building site as a labourer or trainee. The CSCS card is required for you to work onsite and this course prepares you so that you can apply for a green or red card. The red card is valid for 3 years and is for trainees studying for a building industry related NVQ. The green card is for labourers working onsite and is valid for 5 years.",
+      "quals": "You do not need formal qualifications to start this course.",
+      "content": "During this course you will study the CITB Site Safety Plus Health & Safety Awareness course. By the end of the course you will understand the need to prevent accidents, have an understanding of health and safety law, identify how your role fits into the control and management of the building site, understand the need for risk assessments and method statements, accident prevention techniques. The course is delivered by the Construction Department, which is based at our brand new campus in Colindale.",
+      "completion": "Successful completion of the course earns you a CITB Site Safety Plus Health & Safety Awareness Certificate. Completion of the course and assessment enables you to apply for your CSCS red or green card.",
+      "extra": "All equipment will be provided."
     }
-}
-{
-  "name": "Gas Safety Training, Portfolio and ACS",
-  "trade": "Plumbing",
-  "price": "£3200",
-  "times": ["Evening"],
-  "availability": ["Part Time"],
-  "duration": ["36 weeks", "18 Weeks"],
-  "start": ["September", "January", "May"],
-  "location": "Colindale Campus",
-  "description":
-    {
-        "whoisitfor": "This gas training, is for new entrants to the gas industry; those that are deemed to be Category 2 trainees (working in the industry), and those who hold a recognised qualification in the plumbing (level 2) but lack gas training and experience. Qualified plumbers and alike are suitable candidates for this course, provision of certification will be required ahead of commencing this course. This course covers all of the stages required in order to get to the point of registering with Gas Safe.",
-        "quals": "You will take this Level 3 Gas Safety Training, Portfolio & ACS qualification if you are currently employed in the gas installation industry and wish to demonstrate your ability to work safely and competently to the recognised national standard. As well as this, you should have a Level 2 plumbing qualification and plumbing experience",
-        "content": "During this period of gas training, we will cover basic heating systems and heating controls, gas appliance functions and basic principles of flues and combustion to give candidates the knowledge required to move forward to the next aspect of this gas course. You will learn about legislation, tightness testing, pipework requirements, gas safety controls, pipe sizing, gas rates / heat inputs, flueing, appliance installation and servicing, ventilation, unsafe situations. Following the completion of the workshop training and assessments for the gas programme, you will be deemed competent to undertake supervised gas work and so the next step towards Gas Safe registration will be to demonstrate your competence in your work place by working alongside a Gas Safe Registered Engineer who acts as your on-site recorder/verifier, helping you to build a portfolio of evidence and prove your competence and safety working with gas.",
-        "completion": "Level 3 Gas Safety Training, Portfolio & ACS",
-        "extra": "You will need to purchase steel toe capped safety boots (PPE) and regulation books"
+  },
+  {
+    "name": "Gas Safety Training, Portfolio and ACS",
+    "trade": "Plumbing",
+    "price": "£3200",
+    "times": ["Evening"],
+    "availability": ["Part Time"],
+    "duration": ["36 weeks", "18 Weeks"],
+    "start": ["September", "January", "May"],
+    "location": "Colindale Campus",
+    "description": {
+      "whoisitfor": "This gas training, is for new entrants to the gas industry; those that are deemed to be Category 2 trainees (working in the industry), and those who hold a recognised qualification in the plumbing (level 2) but lack gas training and experience. Qualified plumbers and alike are suitable candidates for this course, provision of certification will be required ahead of commencing this course. This course covers all of the stages required in order to get to the point of registering with Gas Safe.",
+      "quals": "You will take this Level 3 Gas Safety Training, Portfolio & ACS qualification if you are currently employed in the gas installation industry and wish to demonstrate your ability to work safely and competently to the recognised national standard. As well as this, you should have a Level 2 plumbing qualification and plumbing experience",
+      "content": "During this period of gas training, we will cover basic heating systems and heating controls, gas appliance functions and basic principles of flues and combustion to give candidates the knowledge required to move forward to the next aspect of this gas course. You will learn about legislation, tightness testing, pipework requirements, gas safety controls, pipe sizing, gas rates / heat inputs, flueing, appliance installation and servicing, ventilation, unsafe situations. Following the completion of the workshop training and assessments for the gas programme, you will be deemed competent to undertake supervised gas work and so the next step towards Gas Safe registration will be to demonstrate your competence in your work place by working alongside a Gas Safe Registered Engineer who acts as your on-site recorder/verifier, helping you to build a portfolio of evidence and prove your competence and safety working with gas.",
+      "completion": "Level 3 Gas Safety Training, Portfolio & ACS",
+      "extra": "You will need to purchase steel toe capped safety boots (PPE) and regulation books"
     }
-}
+  }
 ]
