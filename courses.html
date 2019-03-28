@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title> Best Skills 4 U Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <!-- All imports -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <script src="js/main.js"></script>
+
+
+
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Construction & Building Services Engineering Academy">
+  <meta name="keywords" content="Construction, Academy, Engineering, London, plumbing, electrical, gas, barnetsouthgatecollege, consultation">
+</head>
+
+<body>
+  <!-- NAV BAR -->
+  <div id="nav-bar" class="nav-bar mobile-nav-bar">
+    <div class="hamburger" id="hamburger">
+      <img src="assets/icons/hamburger.png" />
+    </div>
+    <a href=".">Home</a>
+    <a href="aboutus.html">Who We Are</a>
+    <a href="whatwedo.html">What We Do</a>
+    <a class="nav-active" href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <!-- END OF NAV BAR -->
+  <script>
+    //mobile nav bar toggle
+
+    var hamburger = document.getElementById('hamburger');
+    var navBar = document.getElementById('nav-bar');
+
+    hamburger.addEventListener("click", function() {
+      navBar.classList.toggle("active-hamburger");
+      document.body.classList.toggle("no-scroll");
+      //toggle hamburger on link click
+      document.addEventListener("click", function(event){
+        if(event.target.tagName === 'A'){
+          navBar.classList.toggle("active-hamburger");
+        }
+      })
+    });
+  </script>
+
+
+
+  <section>
+    <h1 class="header-secondary text-left">The Courses we offer...</h1>
+    <p class="text-secondary quaterhalf-width mobile-full-width">BS4U has succesfully delivered training courses, as well as NVQ assessments, to people from all over the UK.</p>
+  </section>
+  <section>
+
+    <div id="modal" class="modal quaterhalf-width mobile-modal">
+      <section class="flex-row space-between section-wider ">
+        <h2 class="title-secondary"> Enquiring for: </h2>
+        <div id="modal-close" style="margin-top: 14px; cursor: pointer">
+          <img src="assets/icons/close.svg" />
+        </div>
+      </section>
+      <section class=" section-wider ">
+        <h2 class="header-secondary" id="title">Title here</h2>
+      </section>
+
+      <section class="section-wider section-no-margin">
+        <h5 style="margin-bottom: 0px; margin-top: 5px" id="price"></h5>
+        <h5 style="margin-bottom: 0px; margin-top: 5px" id="time"> time </h5>
+        <h5 style="margin-bottom: 0px; margin-top: 5px" id="start"> start dates</h5>
+        <h5 style="margin-bottom: 0px; margin-top: 5px" id="availability"> availability </h5>
+        <h5 style="margin-bottom: 0px; margin-top: 5px" id="duration"> duration </h5>
+        <h5 style="margin-bottom: 0px; margin-top: 5px" id="location"> location </h5>
+      </section>
+
+      <section class="section-wider">
+        <h5 class="text"><span> Who is this for? </span></h5>
+        <p style="margin-top: 0" class="text" id="description">content here</p>
+      </section>
+      <section class="section-wider">
+        <h5 class="text"><span> What qualifications / Experience do I need? </span></h5>
+        <p style="margin-top: 0" class="text" id="quals">content here</p>
+      </section>
+      <section class="section-wider">
+        <h5 class="text"><span> What will I study? </span></h5>
+        <p style="margin-top: 0" class="text"id="content">content here</p>
+      </section>
+      <section class="section-wider">
+        <h5 class="text"><span> What qualifications could I achieve? </span></h5>
+        <p style="margin-top: 0" class="text" id="completion">content here</p>
+      </section>
+      <section class="section-wider">
+        <h5 class="text"><span> Extra information </span></h5>
+        <p style="margin-top: 0" class="text" id="extra">content here</p>
+      </section>
+
+      <section class="section-wider">
+        <p class="text">If you're interested in this course please fill out the form below and we'll aim to get back to you as soon as possible.</p>
+      </section>
+
+      <section class="section-wider">
+        <form style="margin-bottom: 0px; margin-top: 0px" class="flex-column quaterhalf-width mobile-full-width">
+          <label class="text">Name</label>
+          <input type="text" name="firstname">
+
+          <label class="text">E-mail</label>
+          <input type="email" name="email">
+
+          <label class="text">Mobile Number</label>
+          <input type="text" name="number">
+
+          <label class="text">Your Message</label>
+          <textarea type="text"></textarea>
+          <div class="button button-primary button-right"><a>Submit</a></div>
+        </form>
+      </section>
+    </div>
+
+    <h2 class="title"> Electrical </h2>
+    <p class="text-secondary quaterhalf-width mobile-full-width">Our courses are designed for anyone who wishes to gain industry-recognised qualifications and become an electrician. No matter what stage you're at in your career, we can help you out.
+    </p>
+
+    <div id="electrical-section">
+
+    </div>
+  </section>
+
+  <section class="contact-ribbon text-center">
+    <h2> For course information, please call <span>07801317422</span> </h2>
+  </section>
+
+  <section id="plumbing-section">
+    <h2 class="title">Plumbing & Gas</h2>
+
+    <p class="text-secondary quaterhalf-width mobile-full-width">If you want to start a new career in plumbing or gas, we can help. Our training courses have helped people change their career.
+      <br>
+      If you're already a professional tradesperson, we have courses designed for you to help you build upon your existing skills and achieve new industry qualifications.
+    </p>
+
+    <div id="plumbing-section">
+
+    </div>
+
+  </section>
+
+  <section>
+    <h2 class="title">What our students say...</h2>
+
+    <div class="full-width flex-column flex-column-center">
+      <div class="quaterhalf-width flex-column flex-column-center slide mobile-full-width">
+        <p class="text text-center">
+          "I was impressed with the wide variety of classes offered at the Learning Center. I don't have to drive across town after work to go to school. I just go home and jump online. This made going back to school easier than I expected.. I'm glad
+          a friend recommended this."
+        </p>
+        <p class="text-secondary text-right">
+          - John Smith
+        </p>
+      </div>
+      <div class="quaterhalf-width flex-column flex-column-center slide mobile-full-width">
+        <p class="text text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut lorem elit. Morbi arcu velit, blandit a tempus pretium, tristique quis dolor.
+        </p>
+        <p class="text-secondary text-right">
+          - John Smith
+        </p>
+      </div>
+      <div class="quaterhalf-width flex-column flex-column-center slide mobile-full-width">
+        <p class="text text-center">
+          Vivamus malesuada, lorem ac tempor bibendum, risus velit tempus ex, vel iaculis diam quam non mauris. Etiam nec mauris est. Maecenas turpis dolor, placerat in elementum nec, accumsan eget nulla. Vivamus suscipit urna quis magna pharetra
+          lacinia. Phasellus elementum nulla justo.
+        </p>
+        <p class="text-secondary text-right">
+          - John Smith
+        </p>
+      </div>
+    </div>
+    <div class="full-width flex-row flex-row-center">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </section>
+
+  <section class="section-fluid ">
+    <div class="curve mobile-curve">
+      <img src="assets/bg-curve-desktop.svg" />
+    </div>
+
+    <div class="background-dark flex-row flex-row-center ">
+      <section class="background-dark quaterhalf-width flex-row space-between mobile-full-width">
+
+        <div class="flex-column flex-row-center">
+          <h3 class="title-secondary">Best Skills 4 U ltd</h3>
+          <p class="text">info@barnetsouthgate.ac.uk <br>Harry - 07801317422</p>
+          <h2 class="title-secondary">Southgate Campus - <br>Barnet Southgate College</h2>
+        </div>
+
+        <div class="image image-large">
+          <iframe width="720" height="600" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=southgate%20campus+(Southgate%20Campus)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no"
+            marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="flex-row space-between padded background-dark">
+
+      <div class="navigation text-secondary">
+        Bestskills4U ltd copyright 2019
+      </div>
+      <div class="navigation">
+        <a href=".">Home</a>
+        <a href="aboutus.html">Who We Are</a>
+        <a href="whatwedo.html">What We Do</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/courses.js"></script>
+
+</body>
+
+</html>

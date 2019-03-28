@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title> Best Skills 4 U Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <!-- All imports -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <!-- <script src="js/main.js"></script> -->
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Construction & Building Services Engineering Academy">
+  <meta name="keywords" content="Construction, Academy, Engineering, London, plumbing, electrical, gas, barnetsouthgatecollege, consultation">
+</head>
+
+<body>
+  <!-- NAV BAR -->
+  <div id="nav-bar" class="nav-bar mobile-nav-bar">
+    <div class="hamburger" id="hamburger">
+      <img src="assets/icons/hamburger.png" />
+    </div>
+    <a href=".">Home</a>
+    <a href="aboutus.html">Who We Are</a>
+    <a class="nav-active" href="whatwedo.html">What We Do</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <!-- END OF NAV BAR -->
+  <script>
+    //mobile nav bar toggle
+
+    var hamburger = document.getElementById('hamburger');
+    var navBar = document.getElementById('nav-bar');
+
+    hamburger.addEventListener("click", function() {
+      navBar.classList.toggle("active-hamburger");
+      document.body.classList.toggle("no-scroll");
+      document.addEventListener("click", function(event){
+        if(event.target.tagName === 'A'){
+          navBar.classList.toggle("active-hamburger");
+        }
+      })
+    });
+  </script>
+
+  <section >
+    <h2 class="header-secondary">Construction</h2>
+    <p class="quaterhalf-width text-secondary mobile-full-width">
+      Duis posuere vestibulum faucibus. Donec in convallis tortor. Duis at luctus libero. Curabitur et erat metus. Sed ac diam ultrices, consequat quam quis, suscipit urna. Maecenas eleifend metus sit amet quam molestie, eu sollicitudin turpis faucibus.
+    <h4 class="text-secondary-sub">Recent projects we worked on</h4>
+    <ul>
+      <li>Project one - brief description</li>
+      <li>Project two - brief description</li>
+      <li>Project three - brief description</li>
+      <li>Project four - brief description</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="header-secondary">Courses</h2>
+    <p class="quaterhalf-width text-secondary mobile-full-width">Sscipit urna. Maecenas eleifend metus sit amet quam molestie, eu sollicitudin turpis faucibus.</p>
+
+    <h4 class="text-secondary-sub">Our Most Popular Courses</h4>
+    <div class="flex-row space-between">
+
+      <div>
+        <div class="image">
+          <img style="max-height: 267px" src="assets/whatwedo/plumbing.jpg"/>
+        </div>
+        <a href="courses.html"><p class="title-secondary"> Level 2 Diploma in Plumbing </p></a>
+      </div>
+      <div>
+        <div class="image">
+          <img src="assets/whatwedo/18edition.jpg"/>
+        </div>
+        <a href="courses.html"><p class="title-secondary"> 18th Edition </p></a>
+      </div>
+      <div>
+        <div class="image">
+          <img src="assets/whatwedo/electrical.jpg"/>
+        </div>
+        <a href="courses.html"><p class="title-secondary"> Level 3 Electrical Installation </p></a>
+      </div>
+
+    </div>
+
+    <div class="button button-primary button-right"> <a href="courses.html">More Courses</a> </div>
+  </section>
+
+
+  <section>
+    <h1 class="header-secondary">Consulting </h1>
+    <p class="text quaterhalf-width mobile-full-width">
+      Vivamus sit amet vestibulum enim, ullamcorper tincidunt augue. Quisque quis fermentum nunc, at vehicula sem. Sed in velit faucibus leo volutpat viverra. Donec ligula diam, pretium id dolor ac, bibendum condimentum quam. Fusce vitae aliquam massa. Vivamus pulvinar elementum odio at interdum.
+    </p>
+    <p class="text-secondary">We'd love to meet with you for a free consultation</p>
+
+    <div class="button button-primary button-left">
+      <a href="contact.html">Get in Touch</a>
+    </div>
+  </section>
+
+  <section class="section-fluid ">
+    <div class="curve mobile-curve">
+      <img src="assets/bg-curve-desktop.svg" />
+    </div>
+
+    <div class="background-dark flex-row flex-row-center ">
+      <section class="background-dark quaterhalf-width flex-row space-between mobile-full-width">
+
+        <div class="flex-column flex-row-center">
+          <h3 class="title-secondary">Best Skills 4 U ltd</h3>
+          <p class="text">info@barnetsouthgate.ac.uk <br>Harry - 07801317422</p>
+          <h2 class="title-secondary">Southgate Campus - <br>Barnet Southgate College</h2>
+        </div>
+
+        <div class="image image-large">
+          <iframe width="720" height="600" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=southgate%20campus+(Southgate%20Campus)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="flex-row space-between padded background-dark">
+
+      <div class="navigation text-secondary">
+        Bestskills4U ltd copyright 2019
+      </div>
+      <div class="navigation">
+        <a href=".">Home</a>
+        <a href="aboutus.html">Who We Are</a>
+        <a href="whatwedo.html">What We Do</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

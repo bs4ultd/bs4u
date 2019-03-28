@@ -1,23 +1,181 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <title> Best Skills 4 U Ltd</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="description" content="Construction & Building Services Engineering Academy">
-    <meta name="keywords" content="Construction, Academy, Engineering, London, plumbing, electrical, gas, barnetsouthgatecollege, consultation">
-  </head>
-  
+
+<head>
+
+  <title> Best Skills 4 U Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <script src="js/main.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Construction & Building Services Engineering Academy">
+  <meta name="keywords" content="Construction, Academy, Engineering, London, plumbing, electrical, gas, barnetsouthgatecollege, consultation">
+</head>
+
 <body>
-  
-  <h1>Website Under Construction</h1>
-  <h2>Best Skills 4U ltd</h2>
-  <h3>info@bestskills4u.com</h3>
-  
+
+  <!-- NAV BAR -->
+  <div id="nav-bar" class="nav-bar mobile-nav-bar">
+    <div class="hamburger" id="hamburger">
+      <img src="assets/icons/hamburger.png" />
+    </div>
+    <a href=".">Home</a>
+    <a href="aboutus.html">Who We Are</a>
+    <a href="whatwedo.html">What We Do</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <!-- END OF NAV BAR -->
+
+  <script>
+    //mobile nav bar toggle
+
+    var hamburger = document.getElementById('hamburger');
+    var navBar = document.getElementById('nav-bar');
+
+    hamburger.addEventListener("click", function() {
+      navBar.classList.toggle("active-hamburger");
+      document.body.classList.toggle("no-scroll");
+      document.addEventListener("click", function(event){
+        if(event.target.tagName === 'A'){
+          navBar.classList.toggle("active-hamburger");
+        }
+      })
+    });
+  </script>
+
+  <section class="hero flex-row space-between wrap-reverse flex-column-center">
+    <div class=" flex-column half-width mobile-full-width ">
+      <p class="text-secondary"> In partnership with Barnet Southgate College, we bring you</p>
+      <h1 class="header text-left mobile-header">
+        Construction & Building Services Engineering Academy
+      </h1>
+      <div class="button button-primary button-left"><a href="whatwedo.html">Learn More</a></div>
+    </div>
+    <div class="text-center">
+      <img style="width: 100%" src="assets/blob-bg-image.png" alt="">
+    </div>
+  </section>
+
+  <section class="whoweare">
+    <h1 class="header mobile-header">Who We Are </h1>
+    <div class="whoweare-content-container">
+      <div class="content mobile-full-width">
+        <p class="text">We perform structural, brickwork, timber/carpentry, electrical and plumbing to a very high standard. We have been trusted construction and engineering company in London as a family business for 15 years. Our aim is to deliver
+          consistent
+          work, on time and on budget time after time. Our construction and engineering team is tried and tested to be very skilled at what they do. Rest assured that we approach all projects assigned as unique and careful attention to detail. We
+          have a solid reputation that is established on years of experience in the design, construction and engineering (electrical/plumbing) industry.</p>
+      </div>
+      <div class="content mobile-full-width">
+        <p class="text">We have a team of highly experienced, reliable, and skilled professionals and project manager making sure all elements are covered. Our team will work together with you as the client on the project, however small or big it
+          may be. We
+          troubleshoot any arising unexpected problems and we outline all our works in details. Our construction and engineering team is tried and tested to be very tested and be very skilled at what they do. Our clients rate us very highly.
+        </p>
+      </div>
+    </div>
+    <div class="button button-primary button-right"><a href="aboutus.html">About Us</a></div>
+  </section>
+
+  <section class="whatwedo">
+    <h1 class="header mobile-header">What We Do</h1>
+    <p class="text-secondary text-center">We currently offer wide range of services, catering for all aspects of building services engineering.</p>
+    <div class="services-container text-center">
+      <div class="service construction-service ">
+        <a href="whatwedo.html"><h4 class="title">Construction & Engineering</h4></a>
+      </div>
+      <div class="service courses-service ">
+        <a href="courses.html"><h4 class="title">Courses</h4></a>
+      </div>
+      <div class="service consulting-service ">
+        <a href="whatwedo.html"><h4 class="title">Consulting</h4></a>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <h1 class="header mobile-header">What They Say</h1>
+
+    <div class="full-width flex-column flex-column-center">
+      <div class="quaterhalf-width flex-column flex-column-center slide mobile-full-width">
+        <p class="text text-center">
+          "I was impressed with the wide variety of classes offered at the Learning Center. I don't have to drive across town after work to go to school. I just go home and jump online. This made going back to school easier than I expected.. I'm glad
+          a friend recommended this."
+        </p>
+        <p class="text-secondary text-right">
+          - John Smith
+        </p>
+      </div>
+      <div class="quaterhalf-width flex-column flex-column-center slide mobile-full-width">
+        <p class="text text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut lorem elit. Morbi arcu velit, blandit a tempus pretium, tristique quis dolor.
+        </p>
+        <p class="text-secondary text-right">
+          - John Smith
+        </p>
+      </div>
+      <div class="quaterhalf-width flex-column flex-column-center slide mobile-full-width">
+        <p class="text text-center">
+          Vivamus malesuada, lorem ac tempor bibendum, risus velit tempus ex, vel iaculis diam quam non mauris. Etiam nec mauris est. Maecenas turpis dolor, placerat in elementum nec, accumsan eget nulla. Vivamus suscipit urna quis magna pharetra
+          lacinia. Phasellus elementum nulla justo.
+        </p>
+        <p class="text-secondary text-right">
+          - John Smith
+        </p>
+      </div>
+    </div>
+    <div class="full-width flex-row flex-row-center">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="section-fluid ">
+    <div class="curve mobile-curve">
+      <img src="assets/bg-curve-desktop.svg" />
+    </div>
+
+    <div class="background-dark flex-row flex-row-center ">
+      <section class="background-dark quaterhalf-width flex-row space-between mobile-full-width">
+
+        <div class="flex-column flex-row-center">
+          <h3 class="title-secondary">Best Skills 4 U ltd</h3>
+          <p class="text">info@barnetsouthgate.ac.uk <br>Harry - 07801317422</p>
+          <h2 class="title-secondary">Southgate Campus - <br>Barnet Southgate College</h2>
+        </div>
+
+        <div class="image image-large">
+          <iframe width="720" height="600" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=southgate%20campus+(Southgate%20Campus)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no"
+            marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="flex-row space-between padded background-dark">
+
+      <div class="navigation text-secondary">
+        Bestskills4U ltd copyright 2019
+      </div>
+      <div class="navigation">
+        <a href=".">Home</a>
+        <a href="aboutus.html">Who We Are</a>
+        <a href="whatwedo.html">What We Do</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </section>
 
 
 </body>
+
 </html>

@@ -1,0 +1,438 @@
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Handle on hover */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+  color: #1E2022;
+}
+
+div {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+span {
+  color: #ffc107;
+  font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins";
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin-top: 60px;
+  padding: 0px 10% 0px 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-fluid {
+  padding: 0;
+}
+
+.section-wider {
+  margin-top: 20px;
+  padding: 0px 5% 0px 5%;
+}
+
+.navigation {
+  padding: 5% 10% 2% 10%;
+}
+.navigation a {
+  margin-left: 25px;
+}
+
+.nav-active {
+  color: #ffc107 !important;
+  text-decoration: underline;
+}
+
+.section-no-margin {
+  margin: 0;
+}
+
+.button {
+  color: #ffc107;
+  background-color: rgba(255, 197, 7, 0.1);
+  width: fit-content;
+  font-weight: 600;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.button-primary {
+  padding: 15px 30px 15px 30px;
+}
+
+.button-secondary {
+  padding: 10px 20px 10px 20px;
+}
+
+.button-right {
+  align-self: flex-end;
+}
+
+.button-left {
+  align-self: flex-start;
+}
+
+form {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+input {
+  margin-bottom: 35px;
+  border: none;
+  border-bottom: 0.5px solid black;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #ffc107;
+}
+
+textarea {
+  height: 200px;
+  border: none;
+  border-bottom: 0.5px solid black;
+  font-family: "roboto";
+  font-size: 16px;
+}
+
+textarea:focus {
+  outline: none;
+  border-bottom: 1px solid #ffc107;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+  color: white !important;
+}
+.image img {
+  width: 100%;
+}
+
+.image-small {
+  width: 300px;
+  height: 200px;
+}
+
+.image-medium {
+  width: 400px;
+  height: 267px;
+}
+
+.image-large {
+  width: 500px;
+  height: 334px;
+}
+
+.image-small img, .image-medium img, .image-large img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.curve {
+  width: 100%;
+  position: relative;
+  height: 60px;
+}
+.curve img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.header-secondary {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.title-secondary {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.text {
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.text-secondary {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.text-secondary-sub {
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.no-wrap {
+  flex-wrap: nowrap !important;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-row-center {
+  justify-content: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-row-right {
+  justify-content: flex-end;
+}
+
+.flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.flex-column-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.overlap {
+  position: absolute;
+}
+
+.overlap-1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.overlap-2 {
+  position: absolute;
+  z-index: 2;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.quater-width {
+  width: 25%;
+}
+
+.quaterhalf-width {
+  width: 75%;
+}
+
+.background-dark {
+  background-color: #1E2022;
+  color: white !important;
+}
+
+.background-faded-grey {
+  background-color: #FBFBFB;
+}
+
+.accordion {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  padding: 25px 2% 25px 2%;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-header h3 {
+  margin: 0;
+}
+
+.accordion-content {
+  padding: 1% 2% 1% 2%;
+}
+
+.accordion-collapse {
+  height: 0;
+  overflow: hidden;
+}
+
+.modal {
+  display: none;
+  overflow-y: scroll;
+  padding-bottom: 5%;
+  height: 90vh;
+  position: fixed;
+  background-color: white;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+  -webkit-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-active {
+  display: block;
+}
+
+.modal-inactive {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.slide {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: auto;
+}
+
+.dot {
+  border-radius: 50%;
+  background-color: rgba(255, 197, 7, 0.1);
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dot-active {
+  background-color: #ffc107 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-full-width {
+    width: 100% !important;
+  }
+
+  .mobile-accordion {
+    flex-direction: column !important;
+  }
+
+  .mobile-header {
+    font-size: 35px;
+  }
+
+  .mobile-curve {
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .tablet-full-width {
+    width: 100% !important;
+  }
+
+  .mobile-modal {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

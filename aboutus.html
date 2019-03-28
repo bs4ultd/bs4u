@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title> Best Skills 4 U Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <!-- All imports -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <!-- <script src="js/main.js"></script> -->
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Construction & Building Services Engineering Academy">
+  <meta name="keywords" content="Construction, Academy, Engineering, London, plumbing, electrical, gas, barnetsouthgatecollege, consultation">
+</head>
+
+
+<body>
+
+  <!-- NAV BAR -->
+  <div id="nav-bar" class="nav-bar mobile-nav-bar">
+    <div class="hamburger" id="hamburger">
+      <img src="assets/icons/hamburger.png" />
+    </div>
+    <a href=".">Home</a>
+    <a class="nav-active" href="aboutus.html">Who We Are</a>
+    <a href="whatwedo.html">What We Do</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <script>
+    //mobile nav bar toggle
+
+    var hamburger = document.getElementById('hamburger');
+    var navBar = document.getElementById('nav-bar');
+
+    hamburger.addEventListener("click", function() {
+      navBar.classList.toggle("active-hamburger");
+      document.body.classList.toggle("no-scroll");
+      document.addEventListener("click", function(event){
+        if(event.target.tagName === 'A'){
+          navBar.classList.toggle("active-hamburger");
+        }
+      })
+    });
+  </script>
+  <!-- END OF NAV BAR -->
+  <section class="flex-row space-between">
+
+    <div class=" flex-column half-width mobile-full-width tablet-full-width">
+      <h1 class="header-secondary">A little bit about us...</h1>
+      <p class="quote">'The Learning Center was founded on the belief that every student has the ability to learn'</p>
+
+      <section style="margin-top: 50px; margin-bottom: 50px;" class="flex-row section-fluid quaterhalf-width space-between section-no-margin mobile-flex-column mobile-full-width">
+        <div>
+          <p style="margin: 0" class="text-secondary-sub">Students enrolled</p>
+          <h1 style="margin: 0" class="header-secondary"><span>400+</span></h1>
+        </div>
+
+        <div>
+          <p style="margin: 0" class="text-secondary-sub">Would recommend</p>
+          <h1 style="margin: 0" class="header-secondary"><span>89%</span></h1>
+        </div>
+        <div>
+          <p style="margin: 0" class="text-secondary-sub">Pass rate</p>
+          <h1 style="margin: 0" class="header-secondary"><span>95%</span></h1>
+        </div>
+      </section>
+
+      <p class="text">
+        Over the past eight years, our staff has helped more than 400 students improve their study habits, comprehension, and test-taking skills. As a result, these students have earned better test scores and grades, and grown in self-esteem and
+        confidence. We love celebrating those victories with our students
+      </p>
+
+      <p class="text">
+        In a recent survey, 89% of the parents who participated would recommend the Learning Center to a friend.
+      </p>
+
+      <p class="text">
+        We are true specialists in electrical training, it’s all we do. We offer the widest range of electrician courses in the UK for new entrants, existing electricians and companies from our state of the art training centres.
+      </p>
+
+      <p class="text">
+        However don't just take our word for it, this is independently verified by the fact we are working to become IET Centre of Excellence.
+      </p>
+
+      <p class="text">
+        We are true specialists in electrical training, it’s all we do. We offer the widest range of electrician courses in the UK for new entrants, existing electricians and companies from our state of the art training centres.
+      </p>
+
+      <p class="text">
+        Over recent years we've helped thousands of people gain valuable knowledge, experience and the qualifications they need to pursue successful careers in the electrical industry. We offer real training for real people from our very real
+        centres. When you train with us you can rest assured you are training with a true electrical specialist which is why our pass rates are way above the industry average and every year more people pass C&G electrical courses with us than any
+        other provider.
+      </p>
+
+      <div class="button button-primary button-left"><a href="contact.html">Contact Us</a></div>
+    </div>
+
+    <div>
+      <h3 class="title-secondary-sub">Explore More</h3>
+      <div class="flex-column">
+        <div class="image image-small flex-row flex-row-center flex-column-center">
+          <a href="whatwedo.html">
+            <h2 class="title-secondary text-center">Construction <br>& Engineering</h2>
+          </a>
+          <img src="assets/construction-services.jpg" alt="construction services">
+        </div>
+        <div class="image image-small flex-row flex-row-center flex-column-center">
+          <a href="courses.html">
+            <h2 class="title-secondary text-center">Courses</h2>
+          </a>
+          <img src="assets/courses-services.jpg" alt="Courses services">
+        </div>
+
+        <div class="image image-small flex-row flex-row-center flex-column-center">
+          <a href="whatwedo.html">
+            <h2 class="title-secondary text-center">Consulting</h2>
+          </a>
+          <img src="assets/consulting-services.jpg" alt="Consulting Services">
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="section-fluid ">
+    <div class="curve mobile-curve">
+      <img src="assets/bg-curve-desktop.svg" />
+    </div>
+
+    <div class="background-dark flex-row flex-row-center ">
+      <section class="background-dark quaterhalf-width flex-row space-between mobile-full-width">
+
+        <div class="flex-column flex-row-center">
+          <h3 class="title-secondary">Best Skills 4 U ltd</h3>
+          <p class="text">info@barnetsouthgate.ac.uk <br>Harry - 07801317422</p>
+          <h2 class="title-secondary">Southgate Campus - <br>Barnet Southgate College</h2>
+        </div>
+
+        <div class="image image-large">
+          <iframe width="720" height="600" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=southgate%20campus+(Southgate%20Campus)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no"
+            marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="flex-row space-between padded background-dark">
+
+      <div class="navigation text-secondary">
+        Bestskills4U ltd copyright 2019
+      </div>
+      <div class="navigation">
+        <a href=".">Home</a>
+        <a href="aboutus.html">Who We Are</a>
+        <a href="whatwedo.html">What We Do</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

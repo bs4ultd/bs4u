@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title> Best Skills 4 U Ltd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <!-- All imports -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <script src="js/form.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Construction & Building Services Engineering Academy">
+  <meta name="keywords" content="Construction, Academy, Engineering, London, plumbing, electrical, gas, barnetsouthgatecollege, consultation">
+</head>
+
+<body>
+  <!-- NAV BAR -->
+  <div id="nav-bar" class="nav-bar mobile-nav-bar">
+    <div class="hamburger" id="hamburger">
+      <img src="assets/icons/hamburger.png" />
+    </div>
+    <a href=".">Home</a>
+    <a href="aboutus.html">Who We Are</a>
+    <a href="whatwedo.html">What We Do</a>
+    <a href="courses.html">Courses</a>
+    <a class="nav-active" href="contact.html">Contact</a>
+  </div>
+  <!-- END OF NAV BAR -->
+  <script>
+    //mobile nav bar toggle
+
+    var hamburger = document.getElementById('hamburger');
+    var navBar = document.getElementById('nav-bar');
+
+    hamburger.addEventListener("click", function() {
+      navBar.classList.toggle("active-hamburger");
+      document.body.classList.toggle("no-scroll");
+      document.addEventListener("click", function(event){
+        if(event.target.tagName === 'A'){
+          navBar.classList.toggle("active-hamburger");
+        }
+      })
+    });
+  </script>
+
+  <section class="flex-row space-between">
+
+    <div class="half-width mobile-full-width">
+
+      <h1 class="header-secondary"> Let's have a chat...</h1>
+      <p class="text-secondary">
+        Sscipit urna. Maecenas eleifend metus sit amet quam molestie, eu sollicitudin turpis faucibus.
+      </p>
+      <p class="title-secondary">Give us a quick call on: <br><span>078 0131 7422</span></p>
+
+      <form  role="form" method="post" id="reused_form" class="flex-column quaterhalf-width mobile-full-width">
+        <label for="name" class="text">Name</label>
+        <input type="text" id="firstname" name="firstname">
+
+        <label  for="email" class="text">E-mail</label>
+        <input id="email" type="email" name="email">
+
+        <label  for="number" class="text">E-mail</label>
+        <input id="phone" type="tel" name="phone">
+
+        <label for="message"class="text">Your Message</label>
+        <textarea id="message" name="text" type="textarea"></textarea>
+        <button type="submit" class="button button-primary button-right">Submit</button>
+      </form>
+
+    </div>
+
+    <div>
+      <h3 class="title-secondary-sub">Explore More</h3>
+      <div class="flex-column">
+        <div class="image image-small flex-row flex-row-center flex-column-center">
+          <a href=".">
+            <h2 class="title-secondary text-center">Construction <br>& Engineering</h2>
+          </a>
+          <img src="assets/construction-services.jpg" alt="construction services">
+        </div>
+        <div class="image image-small flex-row flex-row-center flex-column-center">
+          <a href=".">
+            <h2 class="title-secondary text-center">Courses</h2>
+          </a>
+          <img src="assets/courses-services.jpg" alt="Courses services">
+        </div>
+
+        <div class="image image-small flex-row flex-row-center flex-column-center">
+          <a href=".">
+            <h2 class="title-secondary text-center">Consulting</h2>
+          </a>
+          <img src="assets/consulting-services.jpg" alt="Consulting Services">
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="section-fluid ">
+    <div class="curve mobile-curve">
+      <img src="assets/bg-curve-desktop.svg" />
+    </div>
+
+    <div class="background-dark flex-row flex-row-center ">
+      <section class="background-dark quaterhalf-width flex-row space-between mobile-full-width">
+
+        <div class="flex-column flex-row-center">
+          <h3 class="title-secondary">Best Skills 4 U ltd</h3>
+          <p class="text">info@barnetsouthgate.ac.uk <br>Harry - 07801317422</p>
+          <h2 class="title-secondary">Southgate Campus - <br>Barnet Southgate College</h2>
+        </div>
+
+        <div class="image image-large">
+          <iframe width="720" height="600" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;q=southgate%20campus+(Southgate%20Campus)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="flex-row space-between padded background-dark">
+
+      <div class="navigation text-secondary">
+        Bestskills4U ltd copyright 2019
+      </div>
+      <div class="navigation">
+        <a href=".">Home</a>
+        <a href="aboutus.html">Who We Are</a>
+        <a href="whatwedo.html">What We Do</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
