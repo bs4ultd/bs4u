@@ -1,107 +1,67 @@
+"use strict";
+
 var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
+
+xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
-    var courses = JSON.parse(this.responseText);
-
-    function accordionTemplate(course, index) {
-
+    var accordionTemplate = function accordionTemplate(course, index) {
       if (course.trade === "Electrical") {
-
-        return `
-
-      <div  id="accordion"class="accordion quaterhalf-width mobile-full-width">
-        <div  class=" accordion-header background-faded-grey padded mobile-accordion">
-          <h3 class="title-secondary ">${course.name}</h3>
-          <!-- <div class="button button-primary">Enquire Now</div> -->
-        </div>
-        <div class="flex-column accordion-content accordion-collapse">
-          <p class="text quaterhalf-width mobile-full-width">
-            ${course.description.whoisitfor}
-          </p>
-          <div  id="modal-btn" data-index="${index}" style="cursor: pointer" class="button button-primary button-left"> More Info</div>
-        </div>
-      </div>
-      `;
+        return "\n      <div  id=\"accordion\"class=\"accordion quaterhalf-width mobile-full-width\">\n        <div  class=\" accordion-header background-faded-grey padded mobile-accordion\">\n          <h3 class=\"title-secondary \">".concat(course.name, "</h3>\n          <!-- <div class=\"button button-primary\">Enquire Now</div> -->\n        </div>\n        <div class=\"flex-column accordion-content accordion-collapse\">\n          <p class=\"text quaterhalf-width mobile-full-width\">\n            ").concat(course.description.whoisitfor, "\n          </p>\n          <div  id=\"modal-btn\" data-index=\"").concat(index, "\" style=\"cursor: pointer\" class=\"button button-primary button-left\"> More Info</div>\n        </div>\n      </div>\n      ");
       } else {
-        document.getElementById('plumbing-section').innerHTML += `
-        <div  id="accordion" class=" accordion quaterhalf-width mobile-full-width">
-          <div  class="accordion-header background-faded-grey padded mobile-accordion">
-            <h3 class="title-secondary ">${course.name}</h3>
-            <!-- <div class="button button-primary">Enquire Now</div> -->
-          </div>
-          <div class="flex-column accordion-content accordion-collapse">
-            <p class="text quaterhalf-width mobile-full-width">
-              ${course.description.whoisitfor}
-            </p>
-            <div id="modal-btn" data-index="${index}" style="cursor: pointer" class="button button-primary button-left">More Info</div>
-          </div>
-        </div>
-        `
+        document.getElementById('plumbing-section').innerHTML += "\n        <div  id=\"accordion\" class=\" accordion quaterhalf-width mobile-full-width\">\n          <div  class=\"accordion-header background-faded-grey padded mobile-accordion\">\n            <h3 class=\"title-secondary \">".concat(course.name, "</h3>\n            <!-- <div class=\"button button-primary\">Enquire Now</div> -->\n          </div>\n          <div class=\"flex-column accordion-content accordion-collapse\">\n            <p class=\"text quaterhalf-width mobile-full-width\">\n              ").concat(course.description.whoisitfor, "\n            </p>\n            <div id=\"modal-btn\" data-index=\"").concat(index, "\" style=\"cursor: pointer\" class=\"button button-primary button-left\">More Info</div>\n          </div>\n        </div>\n        ");
       }
-    }
+    }; //display course titles and description in courses.html
 
 
-    //display course titles and description in courses.html
-    document.getElementById("electrical-section").innerHTML =
-      `
-     ${courses.map(accordionTemplate).join('')}
-    `;
-
-
-
+    var courses = JSON.parse(this.responseText);
+    console.log("hello ajax");
+    document.getElementById("electrical-section").innerHTML = "\n     ".concat(courses.map(accordionTemplate).join(''), "\n    ");
     var $accordionHeader = $('.accordion-header');
     var $modal = $('#test');
     var $modalTitle = $('#title');
     var $modalPrice = $('#price');
     var $modalAvailability = $('#availability');
-
-    $accordionHeader.click(function() {
-
+    $accordionHeader.click(function () {
       $('.accordion-content').addClass('accordion-collapse');
       $(this).next().toggleClass('accordion-collapse');
-
-
     });
-
     var $modal = $('#modal');
     var $modalClose = $('#modal-close');
     var $accordionMoreInfo = $('.button-primary');
+    $accordionMoreInfo.click(function () {
+      $modal.show(); //close modal when user clicks outside the modal
 
-
-    $accordionMoreInfo.click(function() {
-      $modal.show();
-      //close modal when user clicks outside the modal
-      $(document).click(function(e){
+      $(document).click(function (e) {
         console.log(e.target.closest('#modal') === null);
-        if(e.target.closest('#modal')=== null && e.target.id != 'modal-btn'){
+
+        if (e.target.closest('#modal') === null && e.target.id != 'modal-btn') {
           $modal.hide();
           $('body').removeClass('no-scroll');
         }
-      });
-      //disable scroll on body
+      }); //disable scroll on body
+
       $('body').addClass('no-scroll');
-      $modalClose.click(function() {
-        $modal.hide();
-        //enable scroll on body
+      $modalClose.click(function () {
+        $modal.hide(); //enable scroll on body
+
         $('body').removeClass('no-scroll');
       });
-
       var index = this.dataset.index;
-      document.getElementById('title').innerHTML = `${courses[index].name}`;
-      document.getElementById('price').innerHTML = `${courses[index].price}`;
-      document.getElementById('time').innerHTML = `${courses[index].times}`;
-      document.getElementById('availability').innerHTML = `${courses[index].availability}`;
-      document.getElementById('duration').innerHTML = `${courses[index].duration}`;
-      document.getElementById('start').innerHTML = `${courses[index].start}`;
-      document.getElementById('location').innerHTML = `${courses[index].location}`;
-      document.getElementById('description').innerHTML = `${courses[index].description.whoisitfor}`;
-      document.getElementById('quals').innerHTML = `${courses[index].description.quals}`;
-      document.getElementById('content').innerHTML = `${courses[index].description.content}`;
-      document.getElementById('completion').innerHTML = `${courses[index].description.completion}`;
-      document.getElementById('extra').innerHTML = `${courses[index].description.extra}`;
+      document.getElementById('title').innerHTML = "".concat(courses[index].name);
+      document.getElementById('price').innerHTML = "".concat(courses[index].price);
+      document.getElementById('time').innerHTML = "".concat(courses[index].times);
+      document.getElementById('availability').innerHTML = "".concat(courses[index].availability);
+      document.getElementById('duration').innerHTML = "".concat(courses[index].duration);
+      document.getElementById('start').innerHTML = "".concat(courses[index].start);
+      document.getElementById('location').innerHTML = "".concat(courses[index].location);
+      document.getElementById('description').innerHTML = "".concat(courses[index].description.whoisitfor);
+      document.getElementById('quals').innerHTML = "".concat(courses[index].description.quals);
+      document.getElementById('content').innerHTML = "".concat(courses[index].description.content);
+      document.getElementById('completion').innerHTML = "".concat(courses[index].description.completion);
+      document.getElementById('extra').innerHTML = "".concat(courses[index].description.extra);
     });
-
   }
 };
+
 xmlhttp.open("GET", "https://raw.githubusercontent.com/bs4ultd/bs4u/gh-pages/courses.json", true);
 xmlhttp.send();
