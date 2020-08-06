@@ -12,41 +12,41 @@
       "whoisitfor": "This course is a great choice if you to become a fully qualified electrician and have some practical work experience. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
       "quals": "All applicants must normally have a Level 3 Diploma in either City & Guilds 2365 or the previous 2330 qualification at Level 2 or 2360 part 1. You also need GCSEs in maths and English (at grade C or higher) and a Level 2 maths and English pass during the admission process.",
       "content": "For this Level 3 NVQ you will study fundamental principles and environmental technologies, principles of electrical science, fault diagnosis and rectification, inspection, testing and commissioning, and electrical system design.",
-      "completion": "Successful completion of the course will lead to an award of Diploma Level 3 (City & Guilds 2365 Level 3). From here you can choose to proceed to full time employment or look for an Apprenticeship.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 3 NVQ. From here you can choose to proceed to full time employment or look for an Apprenticeship.",
       "extra": "You must provide and wear approved safety footwear, course books and a scientific calculator. "
     }
   },
   {
     "name": "Diploma Level 3 in Electrical Installations",
     "trade": "Electrical",
-    "price": "£3345",
+    "price": "£3300",
     "times": ["Evenings", "Days"],
     "availability": ["Full Time", "Part Time"],
     "duration": ["36 weeks", "18 weeks"],
     "start": ["September", "January", "May"],
-    "location": "Southgate Campus",
+    "location": "BS4U Campus",
     "description": {
       "whoisitfor": "This course is a great choice if you to become a fully qualified electrician and have some practical work experience. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
-      "quals": "All applicants must normally have a Level 3 Diploma in either City & Guilds 2365 or the previous 2330 qualification at Level 2 or 2360 part 1. You also need GCSEs in maths and English (at grade C or higher) and a Level 2 maths and English pass during the admission process.",
-      "content": "For this Level 3 NVQ you will study fundamental principles and environmental technologies, principles of electrical science, fault diagnosis and rectification, inspection, testing and commissioning, and electrical system design.",
-      "completion": "Successful completion of the course will lead to an award of Diploma Level 3 (City & Guilds 2365 Level 3). From here you can choose to proceed to full time employment or look for an Apprenticeship.",
+      "quals": "All applicants must normally have a Level 2 Diploma in either City & Guilds 2365 or the previous 2330 qualification at Level 2 or 2360 part 1. You also need GCSEs in maths and English (at grade C or higher) and a Level 2 maths and English pass during the admission process.",
+      "content": "For this Level 3 Electrical Installations Course you will study fundamental principles and environmental technologies, principles of electrical science, fault diagnosis and rectification, inspection, testing and commissioning, and electrical system design.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 3 in Electrical Installation. From here you can choose to proceed to full time employment or look for an Apprenticeship.",
       "extra": "You must provide and wear approved safety footwear, course books and a scientific calculator. We have different sources of financial support to help those who meet the criteria. You will be able to apply to this fund once you have enrolled on your course."
     }
   },
   {
     "name": "Diploma Level 2 in Electrical Installations",
     "trade": "Electrical",
-    "price": "£1390",
+    "price": "£1800",
     "times": ["Evenings", "Days"],
     "availability": ["Full Time", "Part Time"],
     "duration": ["36 weeks", "18 weeks"],
     "start": ["September", "January"],
-    "location": "Southgate Campus",
+    "location": "BS4U Campus",
     "description": {
       "whoisitfor": "This course is a great choice if you are new to the electrical industry and want to become a qualified electrician. This diploma is the industry's most recognised route for qualification as an electrician and you can work in the domestic, commercial or industrial sectors.",
       "quals": "All applicants must normally have at least 4 GCSEs grade A* to D (8/9 - 3) including maths and English, and a Level 1 maths and English pass during the admission process. Mature students are welcome provided they can prove their ability to study at Level 2 during the admission process.",
       "content": "For this Level 2 Diploma you will learn about electrical principles including AC theory, single and triple phase power systems (in accordance with the 17th Edition Wiring Regulations 2008[2015]), Health and Safety in building services, electrical installation technology, installation of wiring systems and communication with other building services. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
-      "completion": "Successful completion of the course will lead to an award of Diploma Level 2 (City & Guilds 2365 Level 2). From here you can choose to proceed to the Diploma Level 3 or look for an Apprenticeship.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 2 Electrical Installation. From here you can choose to proceed to the Diploma Level 3 or look for an Apprenticeship.",
       "extra": "You must provide and wear approved safety footwear, and have a copy of the course book and a scientific calculator."
     }
   },
@@ -57,13 +57,13 @@
     "times": ["Day"],
     "availability": ["Full Time"],
     "duration": ["36 weeks"],
-    "start": ["September"],
-    "location": "Southgate Campus",
+    "start": ["TBC"],
+    "location": "BS4U Campus",
     "description": {
       "whoisitfor": "If you are thinking about training as a plumber or electrician this course is a good start point. You will gain hands on skills throughout the course helping you gain a real insight into what being a plumber or an electrician involves. This diploma will help you learn, develop and practise the skills you need for employment or further career progression.",
       "quals": "You do not need formal qualifications to start this course, but you should be able to demonstrate Level 1 numeracy and literacy capabilities through a short assessment during the admission process.",
       "content": "For this Level 1 Diploma you will learn the foundations of plumbing or electrical installation and then be able to proceed to Level 2 full NVQ qualification. You will also learn about safe working practices when working in building construction. There will be an opportunity to widen your skills base and gain experience in elements of the trade that will improve employability. You will also have the opportunity to study towards gaining your CSCS card, increasing your chances of employment.",
-      "completion": "Successful completion of the course will lead to an award of Diploma Level 1 (City & Guilds 7202 Level 1). From here you can choose to proceed to the Diploma Level 2 or look for an Apprenticeship.",
+      "completion": "Successful completion of the course will lead to an award of Diploma Level 1 Electrical Installation. From here you can choose to proceed to the Diploma Level 2 or look for an Apprenticeship.",
       "extra": "You must provide and wear approved safety footwear. We have different sources of financial support to help those who meet the criteria. You will be able to apply to this fund once you have enrolled on your course."
     }
   },
@@ -74,14 +74,14 @@
     "price": "£399",
     "times": ["Evening"],
     "availability": ["Part Time"],
-    "duration": ["2"],
+    "duration": ["1 week"],
     "start": ["Monthly"],
-    "location": "Southgate Campus",
+    "location": "BS4U Campus",
     "description": {
       "whoisitfor": "This qualification is primarily aimed at practising electricians with relevant experience and other allied professionals e.g. surveyors, consultants and other trades needing to update and enhance their understanding of IEE Wiring Regulations. It is also suitable for anyone wishing to demonstrate an understanding of the IEE 18th Edition Wiring Regulations (BS 7671).",
       "quals": "There are no formal entry requirements for candidates undertaking this qualification but candidates need to have the potential and opportunity to successfully gain the qualification.",
       "content": "Course elements will include: 1. Understanding the scope, object and fundamental principles of BS7671. 2. Understanding the fundamental principles and requirements of environmental technology systems. 3. Understanding the definitions used within BS7671. 4. Understanding how to assess the general characteristics of electrical installations. 5. Understanding requirements of Protection for safety for electrical installations. 6. Understanding the requirements for Selection and erection of equipment for electrical installations. 7. Understanding the requirements of Inspection and testing of electrical installations. 8. Understanding the requirements of special installations or locations as identified in BS 7671. 9. Understanding the information contained within the appendices of BS7671.",
-      "completion": "Level 3 Award in the Requirements for Electrical Installations BS 7671:2018 (2382- 18)",
+      "completion": "Level 3 Award in the Requirements for Electrical Installations BS 7671:2018",
       "extra": "Students need to have the latest edition of the BS 7671 Wiring Regulations."
     }
   },
@@ -89,17 +89,17 @@
   {
     "name": "Inspection and Testing",
     "trade": "Electrical",
-    "price": "£999",
+    "price": "£1200",
     "times": ["Day"],
     "availability": ["Part Time"],
     "duration": ["3 weeks"],
     "start": ["September", "January", "March", "June"],
-    "location": "Southgate Campus",
+    "location": "BS4U Campus",
     "description": {
       "whoisitfor": "The course is suitable for Electricians, Engineers and Contractors already working and willing to progress on in their professional. It is also for Electricians working towards qualified Electrician status.",
       "quals": "Electricians with basic knowledge in electrical installations and a minimum of three years' work experience. Engineers, Designers and Contractors in a relevant field and who have 17th Edition. Electricians with very little experience must have 2330, 2357 or 2365 Level 3 or equivalent qualification together with 17 Edition. Engineers Designers and Contractors who have not got the 17th Edition can have the option of doing 17th Edition in parallel with this course. All holders of 2394",
       "content": "The principles, processes and practice of Inspection and Testing of new Installations together with the underpinning science/theory of Testing and Inspecting. Practical explanation of and skills in Inspection and Testing on different domestic, commercial and Industrial installations.",
-      "completion": "A level 3 Award in the Periodic Inspection, Testing and Certification of Electrical Installations (City & Guilds 2394-01)",
+      "completion": "A level 3 Award in the Periodic Inspection, Testing and Certification of Electrical Installations",
       "extra": "All equipment will be provided for this course but you may bring your own test equipment and Textbooks"
     }
   },
@@ -112,7 +112,7 @@
     "availability": ["-"],
     "duration": ["-"],
     "start": ["-"],
-    "location": "Southgate Campus",
+    "location": "BS4U Campus",
     "description": {
       "whoisitfor": "-",
       "quals": "-",
