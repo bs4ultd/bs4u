@@ -105,20 +105,20 @@
   },
 
   {
-    "name": "Electrotechnical Certification Scheme (ECS)",
-    "trade": "Electrical",
-    "price": "-",
-    "times": ["-"],
-    "availability": ["-"],
-    "duration": ["-"],
-    "start": ["-"],
-    "location": "BS4U Campus",
-    "description": {
-      "whoisitfor": "-",
-      "quals": "-",
-      "content": "-",
-      "completion": "-",
-      "extra": "-"
+ //   "name": "Electrotechnical Certification Scheme (ECS)",
+//    "trade": "Electrical",
+ //   "price": "-",
+ //   "times": ["-"],
+//    "availability": ["-"],
+ //   "duration": ["-"],
+//    "start": ["-"],
+//    "location": "BS4U Campus",
+//    "description": {
+ //     "whoisitfor": "-",
+//      "quals": "-",
+ //     "content": "-",
+//      "completion": "-",
+//      "extra": "-"
     }
   },
 
